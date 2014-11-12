@@ -49,31 +49,21 @@ p {
 TITLE SECTION
 ************/
 
-#secondtitle {
-	font-size: 1.5em;
-}
-
-img	{
-	width: 75%;
-	padding: 10px;
-	margin: 10px;
-	border-radius:30px;
+div~h2 {
+	padding: 0 10px 0 10px;
+	margin: 0 10px 0 10px;
 }
 
 /***********
 ABOUT SECTION
 ************/
-#about{
+div~h2{
 	margin-top: 15px;
 }
 
 /***********
 EXTRA LINKS
 ************/
-
-#linktitle {
-	margin: 21px 0 5px 0;
-}
 
 ul {
 	margin-top: 0;
@@ -96,10 +86,6 @@ a:hover {
 	color: #A3D86E;
 }
 
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
-}
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
