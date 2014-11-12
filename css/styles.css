@@ -48,26 +48,39 @@ p {
 /***********
 TITLE SECTION
 ************/
+.heading {
+	background-color: rgba(255, 255, 255, 0.3);
+}
 
-div~h2 {
-	padding: 0 10px 0 10px;
-	margin: 0 10px 0 10px;
+nav {
+	padding: 10px 0 10px 0;
+	border: 10px 0 10px 0;
+	margin: 10px 0 10px 0;
+}
+
+nav>li{
+	float: right;
 }
 
 /***********
 ABOUT SECTION
 ************/
-div~h2{
-	margin-top: 15px;
+
+#second {
+	padding: 0 10px 0 10px;
+	margin: 0 10px 0 10px;	
+}
+
+img	{
+	width: 75%;
+	padding: 10px;
+	margin: 10px;
+	border-radius:30px;
 }
 
 /***********
 EXTRA LINKS
 ************/
-
-ul {
-	margin-top: 0;
-}
 
 li {
 	list-style: none;
