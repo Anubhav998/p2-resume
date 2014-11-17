@@ -79,6 +79,11 @@ img	{
 	border-radius:30px;
 }
 
+ul>li{
+	list-style: none;
+	float: none;
+}
+
 /***********
 EXTRA LINKS
 ************/
