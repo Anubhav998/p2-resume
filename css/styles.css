@@ -4,36 +4,33 @@
 GENERAL
 ************/
 
-h1 {
-	color: #A3D86E;
+h1, 
+h2, 
+h3, 
+h4 {
+	color: #A8C060;
 	font-family: 'Russo One', sans-serif;
+}
+
+h1 {
 	width: 370px;
 	padding: 10px 0 0 10px;
 	margin: 10px 0 0 10px;
 	font-size: 2.5em;
 }
 
-h2 {
-	font-family: 'Russo One', sans-serif;
-	color: #A3D86E;
+h2, 
+h3 {
 	padding: 0 10px 0 10px;
 	margin: 0 10px 0 10px;	
 }
 
 h3 {
-	font-family: 'Russo One', sans-serif;
-	color: #A3D86E;
-	padding: 0 10px 0 10px;
 	margin: 5px 5px 5px 5px;	
 }
 
-h4 {
-	font-family: 'Russo One', sans-serif;
-	color: #A3D86E;
-}
-
 body {
-	background: url("../img/bg.png");
+	background: url("../img/footer_lodyas.png");
 }
 
 p {
@@ -91,15 +88,17 @@ li {
 	font-family: 'Play';
 }
 
-a {
-	color: black;
+a:link,
+a:visited {
+	color: #A8C060;
 	text-decoration: none;
 	margin: 0 5px 0 5px;
+	transition: color .25s;
 }
 
 a:hover {
 	text-decoration: line-through;
-	color: #A3D86E;
+	color: #8A8A8A;
 }
 
 /* Show Grid */
